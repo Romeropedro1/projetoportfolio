@@ -167,7 +167,13 @@ Você não precisa de cartão de crédito para começar.
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="">
+                <form action="https://formsubmit.co/romero-pedro1@outlook.com.br" method="POST">
+                    <!-- Evita CAPTCHA -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Redirecionamento após envio -->
+                    <input type="hidden" name="_next" value="https://romeropedro1.github.io/projetoportfolio/obrigado.html">
+
                     <input type="text" name="" id="" placeholder="Seu nome completo:" required>
                     <input type="text" name="" id="" placeholder="Seu e-mail:" required>
                     <input type="text" name="" id="" placeholder="Seu celular:">
