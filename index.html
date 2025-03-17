@@ -168,32 +168,20 @@ Você não precisa de cartão de crédito para começar.
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
                 <form action="https://formspree.io/f/mqapalpg" method="POST">
-    <label>
-        Seu nome:
-        <input type="text" name="nome" placeholder="Seu nome completo:" required>
-    </label>
-    
-    <label>
-        Seu e-mail:
-        <input type="email" name="email" placeholder="Seu e-mail:" required>
-    </label>
-    
-    <label>
-        Seu celular:
-        <input type="text" name="celular" placeholder="Seu celular:">
-    </label>
-    
-    <label>
-        Sua mensagem:
-        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
-    </label>
-    
-    <!-- Redirecionar após envio -->
-    <input type="hidden" name="_next" value="https://romeropedro1.github.io/projetoportfolio/obrigado.html">
-    
-    <button type="submit">Enviar</button>
-</form>
+     <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Redirecionamento após envio -->
+                    <input type="hidden" name="_next" value="https://romeropedro1.github.io/projetoportfolio/obrigado.html">
 
+                    <input type="text" name="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="celular" placeholder="Seu celular:">
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
             </div><!--interface-->
         </section><!--formulario-->
 
